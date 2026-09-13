@@ -332,10 +332,6 @@ export const en: Translations = {
         title: "Advisor",
         bio: "Investment professional at Draper Associates and former Vice President at Blackstone, focused on growth financing for energy companies.",
       },
-      amyngeno: {
-        title: "Intern Analyst",
-        bio: "Incoming senior at IE University, Madrid pursuing a Dual Bachelor's in Laws and International Relations. Her professional experience spans policy research, corporate responsibility, and legal compliance across Kenya, Spain, the United Kingdom, and Central Asia — including work with Aga Khan Foundation USA in collaboration with USAID and at Igeria & Ngugi Advocates in Nairobi. Her analytical work bridges corporate compliance with regional economic realities, covering trade dynamics, infrastructure corridors, and macroeconomic policy alignment.",
-      },
       megan: {
         title: "Strategic Marketing Intern",
         bio: "Recent graduate of Montclair State University with a major in Animation and Visual Effects. Megan brings an artistic background to strategic marketing, with college experience in Red Hawk Studio's semester-long animation pipeline productions and social media work with Viva la Animacion, an organization celebrating Latin artists. They believe art and graphic design can bridge cultures and are looking forward to contributing to CJPA.",
@@ -655,10 +651,6 @@ export const es: Translations = {
       mattharris: {
         title: "Asesor",
         bio: "Profesional de inversiones en Draper Associates y ex Vicepresidente en Blackstone, enfocado en financiamiento de crecimiento para empresas de energía.",
-      },
-      amyngeno: {
-        title: "Analista en Prácticas",
-        bio: "Estudiante de último año en la Universidad IE, Madrid, cursando un Doble Grado en Derecho y Relaciones Internacionales. Su experiencia profesional abarca investigación de políticas públicas, responsabilidad corporativa y cumplimiento legal en Kenia, España, el Reino Unido y Asia Central — incluyendo trabajo con la Aga Khan Foundation USA en colaboración con USAID y en Igeria & Ngugi Advocates en Nairobi. Su trabajo analítico conecta el cumplimiento corporativo con realidades económicas regionales, abarcando dinámicas comerciales, corredores de infraestructura y alineación de políticas macroeconómicas.",
       },
       megan: {
         title: "Practicante de Marketing Estratégico",
@@ -980,10 +972,6 @@ export const zhCN: Translations = {
         title: "顾问",
         bio: "Draper Associates 投资专业人士,曾任黑石集团(Blackstone)副总裁,专注于能源企业的成长期融资。",
       },
-      amyngeno: {
-        title: "实习分析师",
-        bio: "马德里 IE 大学即将升入大四的学生,主修法律与国际关系双学位。其专业经验涵盖政策研究、企业社会责任及法律合规工作,足迹遍及肯尼亚、西班牙、英国及中亚地区——包括与美国阿迦汗基金会(与美国国际开发署合作)以及内罗毕 Igeria & Ngugi Advocates 律师事务所的合作经历。她的分析工作将企业合规与区域经济现实相结合,涵盖贸易动态、基础设施走廊及宏观经济政策协调等领域。",
-      },
       megan: {
         title: "战略市场营销实习生",
         bio: "蒙特克莱尔州立大学动画与视觉特效专业应届毕业生。Megan 将艺术背景融入战略营销工作,大学期间曾参与 Red Hawk Studio 为期一学期的动画制作项目,并为庆祝拉丁裔艺术家的组织 Viva la Animacion 从事社交媒体工作。她相信艺术与平面设计能够连接不同文化,并期待为 CJPA 的发展贡献力量。",
@@ -1303,10 +1291,6 @@ export const zhTW: Translations = {
       mattharris: {
         title: "顧問",
         bio: "Draper Associates 投資專業人士,曾任黑石集團(Blackstone)副總裁,專注於能源企業的成長期融資。",
-      },
-      amyngeno: {
-        title: "實習分析師",
-        bio: "馬德里 IE 大學即將升上大四的學生,主修法律與國際關係雙學位。其專業經驗涵蓋政策研究、企業社會責任及法律遵循工作,足跡遍及肯亞、西班牙、英國及中亞地區——包括與美國阿迦汗基金會(與美國國際開發總署合作)以及奈洛比 Igeria & Ngugi Advocates 律師事務所的合作經歷。她的分析工作將企業遵循與區域經濟現實相結合,涵蓋貿易動態、基礎建設走廊及總體經濟政策協調等領域。",
       },
       megan: {
         title: "策略行銷實習生",
