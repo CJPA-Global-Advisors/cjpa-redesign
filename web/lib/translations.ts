@@ -358,12 +358,7 @@ export const en: Translations = {
     headlineLine2: "the Global Order",
     recentPerspectives: "Recent Perspectives",
     inThePress: "In the Press",
-    articles: [
-      {
-        title: "Speed And Safety: What Circle's IPO Means For Stablecoins Geopolitical Risk",
-        excerpt: "A Forbes article by Earl Carr and intern analyst Jonah Kim on stablecoins, Circle's IPO, and the geopolitical risk dimensions of digital finance.",
-      },
-    ],
+    articles: [],
     press: [
       {
         headline: "CJPA Global Advisors attends exclusive Paley Center luncheon featuring General David H. Petraeus",
@@ -687,12 +682,7 @@ export const es: Translations = {
     headlineLine2: "el Orden Global",
     recentPerspectives: "Perspectivas Recientes",
     inThePress: "En la Prensa",
-    articles: [
-      {
-        title: "Velocidad y seguridad: qué significa la OPI de Circle para el riesgo geopolítico de las stablecoins",
-        excerpt: "Un artículo de Forbes por Earl Carr y el analista en prácticas Jonah Kim sobre las stablecoins, la OPI de Circle y las dimensiones de riesgo geopolítico de las finanzas digitales.",
-      },
-    ],
+    articles: [],
     press: [
       {
         headline: "CJPA Global Advisors asiste a un almuerzo exclusivo del Paley Center con el General David H. Petraeus",
@@ -1016,12 +1006,7 @@ export const zhCN: Translations = {
     headlineLine2: "的观察与思考",
     recentPerspectives: "近期观点",
     inThePress: "媒体报道",
-    articles: [
-      {
-        title: "速度与安全:Circle 首次公开募股(IPO)对稳定币地缘政治风险意味着什么",
-        excerpt: "Earl Carr 与实习分析师 Jonah Kim 在《福布斯》联合撰写的文章,探讨稳定币、Circle 的 IPO 及数字金融的地缘政治风险维度。",
-      },
-    ],
+    articles: [],
     press: [
       {
         headline: "CJPA Global Advisors 出席 Paley Center 特邀午宴,大卫·彼得雷乌斯(David H. Petraeus)将军出席",
@@ -1345,12 +1330,7 @@ export const zhTW: Translations = {
     headlineLine2: "的觀察與思考",
     recentPerspectives: "近期觀點",
     inThePress: "媒體報導",
-    articles: [
-      {
-        title: "速度與安全:Circle 首次公開發行(IPO)對穩定幣地緣政治風險意味著什麼",
-        excerpt: "Earl Carr 與實習分析師 Jonah Kim 在《富比士》聯合撰寫的文章,探討穩定幣、Circle 的 IPO 及數位金融的地緣政治風險面向。",
-      },
-    ],
+    articles: [],
     press: [
       {
         headline: "CJPA Global Advisors 出席 Paley Center 特邀午宴,大衛·彼得雷烏斯(David H. Petraeus)將軍出席",

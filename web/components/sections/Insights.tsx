@@ -7,14 +7,7 @@ import { useLanguage } from "@/contexts/LanguageContext"
 
 const EASE = [0.25, 0.1, 0.25, 1] as const
 
-const ARTICLE_META = [
-  {
-    tag: "Forbes",
-    date: "May 15, 2025",
-    image: "/insights/circle-ipo-stablecoin.png",
-    href: "https://www.forbes.com/sites/earlcarr/2025/05/15/speed-and-safety-what-circles-ipo-means-for-stablecoins/",
-  },
-]
+const ARTICLE_META: { tag: string; date: string; image: string; href: string }[] = []
 
 const PRESS_META = [
   {
