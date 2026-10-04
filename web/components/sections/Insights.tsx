@@ -27,14 +27,6 @@ const PRESS_META = [
     attachmentType: "document",
   },
   {
-    publication: "Hinrich Foundation",
-    date: "June 2024",
-    image: "/press/hinrich-caribbean.jpg",
-    href: "https://www.cjpa.us/new-page",
-    attachmentHref: "/press/hinrich-caribbean.jpg",
-    attachmentType: "image",
-  },
-  {
     publication: "Penn State",
     date: "Feb 23, 2024",
     image: "/press/penn-state-careers.jpeg",

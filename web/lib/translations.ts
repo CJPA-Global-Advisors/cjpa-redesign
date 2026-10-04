@@ -365,10 +365,6 @@ export const en: Translations = {
         attachmentLabel: "Open release",
       },
       {
-        headline: "China's rising influence in the Caribbean through infrastructure and soft power",
-        attachmentLabel: "Source image",
-      },
-      {
         headline: "Earl Carr speaks with graduate students on international relations careers",
         attachmentLabel: "Event photo",
       },
@@ -683,10 +679,6 @@ export const es: Translations = {
       {
         headline: "CJPA Global Advisors asiste a la 21ª Conferencia Anual Global Farm to Market | Chemicals de BMO",
         attachmentLabel: "Abrir comunicado",
-      },
-      {
-        headline: "La creciente influencia de China en el Caribe a través de infraestructura y poder blando",
-        attachmentLabel: "Imagen fuente",
       },
       {
         headline: "Earl Carr conversa con estudiantes de posgrado sobre carreras en relaciones internacionales",
@@ -1005,10 +997,6 @@ export const zhCN: Translations = {
         attachmentLabel: "查看新闻稿",
       },
       {
-        headline: "中国通过基础设施建设与软实力在加勒比地区不断提升影响力",
-        attachmentLabel: "来源图片",
-      },
-      {
         headline: "Earl Carr 与研究生分享国际关系领域的职业发展经验",
         attachmentLabel: "活动照片",
       },
@@ -1323,10 +1311,6 @@ export const zhTW: Translations = {
       {
         headline: "CJPA Global Advisors 出席蒙特婁銀行(BMO)第 21 屆全球農產品到市場化學品年度大會",
         attachmentLabel: "查看新聞稿",
-      },
-      {
-        headline: "中國透過基礎建設與軟實力在加勒比地區不斷提升影響力",
-        attachmentLabel: "來源圖片",
       },
       {
         headline: "Earl Carr 與研究生分享國際關係領域的職涯發展經驗",
