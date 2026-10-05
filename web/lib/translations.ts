@@ -84,6 +84,7 @@ export interface Translations {
     kicker: string
     heading: string
     principalMessage: string
+    playbackError: string
   }
   insights: {
     eyebrow: string
@@ -345,6 +346,7 @@ export const en: Translations = {
     kicker: "CJPA Global Advisors",
     heading: "Our Approach to Global Advisory",
     principalMessage: "Principal Message",
+    playbackError: "The video could not be played. Please try again.",
   },
   insights: {
     eyebrow: "Insights",
@@ -660,6 +662,7 @@ export const es: Translations = {
     kicker: "CJPA Global Advisors",
     heading: "Nuestro Enfoque de Asesoría Global",
     principalMessage: "Mensaje Principal",
+    playbackError: "No se pudo reproducir el video. Inténtelo de nuevo.",
   },
   insights: {
     eyebrow: "Perspectivas",
@@ -975,6 +978,7 @@ export const zhCN: Translations = {
     kicker: "CJPA Global Advisors",
     heading: "我们的全球咨询方法",
     principalMessage: "创始人寄语",
+    playbackError: "视频无法播放，请重试。",
   },
   insights: {
     eyebrow: "洞察",
@@ -1290,6 +1294,7 @@ export const zhTW: Translations = {
     kicker: "CJPA Global Advisors",
     heading: "我們的全球諮詢方法",
     principalMessage: "創辦人的話",
+    playbackError: "影片無法播放，請再試一次。",
   },
   insights: {
     eyebrow: "洞察",
