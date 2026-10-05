@@ -83,7 +83,6 @@ export interface Translations {
   teamFilm: {
     kicker: string
     heading: string
-    comingSoon: string
     principalMessage: string
   }
   insights: {
@@ -345,7 +344,6 @@ export const en: Translations = {
   teamFilm: {
     kicker: "CJPA Global Advisors",
     heading: "Our Approach to Global Advisory",
-    comingSoon: "Video coming soon",
     principalMessage: "Principal Message",
   },
   insights: {
@@ -661,7 +659,6 @@ export const es: Translations = {
   teamFilm: {
     kicker: "CJPA Global Advisors",
     heading: "Nuestro Enfoque de Asesoría Global",
-    comingSoon: "Video próximamente",
     principalMessage: "Mensaje Principal",
   },
   insights: {
@@ -977,7 +974,6 @@ export const zhCN: Translations = {
   teamFilm: {
     kicker: "CJPA Global Advisors",
     heading: "我们的全球咨询方法",
-    comingSoon: "视频即将上线",
     principalMessage: "创始人寄语",
   },
   insights: {
@@ -1293,7 +1289,6 @@ export const zhTW: Translations = {
   teamFilm: {
     kicker: "CJPA Global Advisors",
     heading: "我們的全球諮詢方法",
-    comingSoon: "影片即將推出",
     principalMessage: "創辦人的話",
   },
   insights: {
