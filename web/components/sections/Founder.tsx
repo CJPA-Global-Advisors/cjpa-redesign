@@ -168,23 +168,15 @@ export function Founder() {
             </div>
           </Reveal>
 
-          {/* Credibility photo — placeholder until the real file is supplied */}
           <Reveal delay={0.15} className="relative">
             <div className="relative aspect-[4/3] w-full overflow-hidden border border-[#C8A96A]/15 bg-[#101827] flex items-center justify-center">
-              {/*
-                TODO: replace with the real photo of Earl Carr and Jensen Huang
-                at the Council on Foreign Relations. Save the file to
-                public/team/earl-carr-jensen-huang-cfr.jpg and swap this
-                placeholder block for an <Image> tag, same as the headshot above.
-              */}
-              <span
-                className="text-[#A8B0C0]/50 font-sans font-light uppercase tracking-[0.2em] text-center px-8"
-                style={{ fontSize: "11px" }}
-              >
-                {t.founder.photoPendingLabel}
-                <br />
-                {t.founder.photoPendingName}
-              </span>
+              <Image
+                src="/team/earl-carr-jensen-huang-cfr.jpg"
+                alt={t.founder.photoCaption}
+                fill
+                sizes="(min-width: 1024px) 40vw, 90vw"
+                className="object-cover"
+              />
             </div>
             <div className="absolute bottom-4 right-4 left-4 sm:left-auto sm:max-w-[80%] bg-[#F5F1E8] px-6 py-5">
               <p

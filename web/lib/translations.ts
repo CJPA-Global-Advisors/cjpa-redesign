@@ -61,8 +61,6 @@ export interface Translations {
     message3: string
     signOff: string
     signatureTitle: string
-    photoPendingLabel: string
-    photoPendingName: string
     photoCaption: string
   }
   services: {
@@ -229,8 +227,6 @@ export const en: Translations = {
     message3: "Our company is determined to help you achieve your goals — whether that means identifying geopolitical, financial, or business risk, providing insight as you explore investing in a new country, or helping to raise capital for projects around the world. We are your trusted partner.",
     signOff: "Cordially,",
     signatureTitle: "Founder and CEO, CJPA Global Advisors",
-    photoPendingLabel: "Photo pending —",
-    photoPendingName: "Earl Carr & Jensen Huang, CFR",
     photoCaption: "CJPA's Founder, Earl Carr, with NVIDIA's CEO, Jensen Huang, at the Council on Foreign Relations in Washington, D.C.",
   },
   services: {
@@ -545,8 +541,6 @@ export const es: Translations = {
     message3: "Nuestra empresa está decidida a ayudarle a alcanzar sus objetivos — ya sea identificando riesgos geopolíticos, financieros o comerciales, brindando orientación mientras explora inversiones en un nuevo país, o ayudando a recaudar capital para proyectos alrededor del mundo. Somos su socio de confianza.",
     signOff: "Cordialmente,",
     signatureTitle: "Fundador y Director Ejecutivo, CJPA Global Advisors",
-    photoPendingLabel: "Foto pendiente —",
-    photoPendingName: "Earl Carr y Jensen Huang, CFR",
     photoCaption: "El Fundador de CJPA, Earl Carr, junto al CEO de NVIDIA, Jensen Huang, en el Council on Foreign Relations en Washington, D.C.",
   },
   services: {
@@ -861,8 +855,6 @@ export const zhCN: Translations = {
     message3: "无论是识别地缘政治、财务或商业风险,为您探索海外投资提供洞见,还是协助您为全球项目筹集资金,我们都将竭力助您实现目标。我们是您值得信赖的合作伙伴。",
     signOff: "谨致问候,",
     signatureTitle: "CJPA Global Advisors 创始人兼首席执行官",
-    photoPendingLabel: "照片待补充 —",
-    photoPendingName: "Earl Carr 与 Jensen Huang,外交关系委员会",
     photoCaption: "CJPA 创始人 Earl Carr 与英伟达(NVIDIA)首席执行官黄仁勋(Jensen Huang)在华盛顿特区外交关系委员会(CFR)合影。",
   },
   services: {
@@ -1177,8 +1169,6 @@ export const zhTW: Translations = {
     message3: "無論是辨識地緣政治、財務或商業風險,為您探索海外投資提供洞見,還是協助您為全球專案籌集資金,我們都將竭力協助您達成目標。我們是您值得信賴的合作夥伴。",
     signOff: "謹致問候,",
     signatureTitle: "CJPA Global Advisors 創辦人兼執行長",
-    photoPendingLabel: "照片待補充 —",
-    photoPendingName: "Earl Carr 與 Jensen Huang,外交關係委員會",
     photoCaption: "CJPA 創辦人 Earl Carr 與輝達(NVIDIA)執行長黃仁勳(Jensen Huang)在華盛頓特區外交關係委員會(CFR)合影。",
   },
   services: {
