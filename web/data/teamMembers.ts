@@ -211,6 +211,17 @@ export const teamMembers: TeamMemberProfile[] = [
     bio: "Banking and financial services professional with seven years of experience at JPMorgan Chase, advancing from Personal Banker to Private Client Banker and building relationships with affluent clients. He collaborated with financial advisors, home lending advisors, and business relationship managers to connect clients with tailored financial solutions. Outside of work, John serves as a pianist and Spanish-English translator at his church, drawing on his faith to guide his commitment to communication, relationship-building, and service.",
   },
   {
+    id: "michellewang",
+    name: "Michelle Wang",
+    title: "Intern Analyst",
+    publicRole: "Intern Analyst",
+    portalRole: "Intern Analyst",
+    region: "Columbia University, SIPA",
+    group: "Team",
+    image: "/team/michelle-wang.png",
+    bio: "Master of International Affairs candidate at Columbia University's SIPA, concentrating in International Security and Diplomacy. She previously worked in government affairs at the US-China Business Council, with interests in foreign policy, strategic competition, and defense and military affairs.",
+  },
+  {
     id: "megan",
     name: "Megan",
     title: "Strategic Marketing Intern",
