@@ -200,6 +200,17 @@ export const teamMembers: TeamMemberProfile[] = [
     portalEnabled: true,
   },
   {
+    id: "johnmekonencortes",
+    name: "John Mekonen Cortes",
+    title: "Banking & Financial Services Professional",
+    publicRole: "Banking & Financial Services Professional",
+    portalRole: "Advisor",
+    region: "United States",
+    group: "Advisors",
+    image: "/team/john-mekonen-cortes.jpeg",
+    bio: "Banking and financial services professional with seven years of experience at JPMorgan Chase, advancing from Personal Banker to Private Client Banker and building relationships with affluent clients. He collaborated with financial advisors, home lending advisors, and business relationship managers to connect clients with tailored financial solutions. Outside of work, John serves as a pianist and Spanish-English translator at his church, drawing on his faith to guide his commitment to communication, relationship-building, and service.",
+  },
+  {
     id: "megan",
     name: "Megan",
     title: "Strategic Marketing Intern",
