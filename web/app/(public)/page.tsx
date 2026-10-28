@@ -6,6 +6,7 @@ import { Founder } from "@/components/sections/Founder"
 import { Services } from "@/components/sections/Services"
 import { Team } from "@/components/sections/Team"
 import { TeamFilm } from "@/components/sections/TeamFilm"
+import { PhotoCarousel } from "@/components/sections/PhotoCarousel"
 import { CaseStudies } from "@/components/sections/CaseStudies"
 import { Insights } from "@/components/sections/Insights"
 import { Publications } from "@/components/sections/Publications"
@@ -24,6 +25,7 @@ export default function Home() {
       <Services />
       <Team />
       <TeamFilm />
+      <PhotoCarousel />
       <CaseStudies />
       <Insights />
       <Publications />

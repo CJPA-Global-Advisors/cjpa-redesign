@@ -84,6 +84,15 @@ export interface Translations {
     principalMessage: string
     playbackError: string
   }
+  photoCarousel: {
+    eyebrow: string
+    heading: string
+    description: string
+    previous: string
+    next: string
+    navigation: string
+    goToPhoto: string
+  }
   insights: {
     eyebrow: string
     headlineLine1: string
@@ -343,6 +352,15 @@ export const en: Translations = {
     heading: "Our Approach to Global Advisory",
     principalMessage: "Principal Message",
     playbackError: "The video could not be played. Please try again.",
+  },
+  photoCarousel: {
+    eyebrow: "Global Engagement",
+    heading: "In conversation across borders",
+    description: "The relationships and dialogue behind our work.",
+    previous: "Previous photo",
+    next: "Next photo",
+    navigation: "Choose a photo",
+    goToPhoto: "Go to photo",
   },
   insights: {
     eyebrow: "Insights",
@@ -658,6 +676,15 @@ export const es: Translations = {
     principalMessage: "Mensaje Principal",
     playbackError: "No se pudo reproducir el video. Inténtelo de nuevo.",
   },
+  photoCarousel: {
+    eyebrow: "Participación Global",
+    heading: "Diálogo más allá de las fronteras",
+    description: "Las relaciones y el diálogo que impulsan nuestro trabajo.",
+    previous: "Foto anterior",
+    next: "Foto siguiente",
+    navigation: "Elegir una foto",
+    goToPhoto: "Ir a la foto",
+  },
   insights: {
     eyebrow: "Perspectivas",
     headlineLine1: "Perspectivas sobre",
@@ -972,6 +999,15 @@ export const zhCN: Translations = {
     principalMessage: "创始人寄语",
     playbackError: "视频无法播放，请重试。",
   },
+  photoCarousel: {
+    eyebrow: "全球交流",
+    heading: "跨越国界的对话",
+    description: "推动我们工作的关系与交流。",
+    previous: "上一张照片",
+    next: "下一张照片",
+    navigation: "选择照片",
+    goToPhoto: "转到照片",
+  },
   insights: {
     eyebrow: "洞察",
     headlineLine1: "关于全球秩序",
@@ -1285,6 +1321,15 @@ export const zhTW: Translations = {
     heading: "我們的全球諮詢方法",
     principalMessage: "創辦人的話",
     playbackError: "影片無法播放，請再試一次。",
+  },
+  photoCarousel: {
+    eyebrow: "全球交流",
+    heading: "跨越國界的對話",
+    description: "推動我們工作的關係與交流。",
+    previous: "上一張照片",
+    next: "下一張照片",
+    navigation: "選擇照片",
+    goToPhoto: "前往照片",
   },
   insights: {
     eyebrow: "洞察",
