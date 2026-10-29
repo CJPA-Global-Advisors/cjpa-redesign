@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { ArrowUpRight, FileText, Image as ImageIcon } from "lucide-react"
+import { ArrowUpRight, FileText, Image as ImageIcon, Play } from "lucide-react"
 import { useLanguage } from "@/contexts/LanguageContext"
 
 const EASE = [0.25, 0.1, 0.25, 1] as const
@@ -10,6 +10,20 @@ const EASE = [0.25, 0.1, 0.25, 1] as const
 const ARTICLE_META: { tag: string; date: string; image: string; href: string }[] = []
 
 const PRESS_META = [
+  {
+    publication: "Press Release",
+    date: "Event: October 2026",
+    image: "https://img.youtube.com/vi/2IwQoA8bmXI/hqdefault.jpg",
+    href: "https://www.youtube.com/watch?v=2IwQoA8bmXI",
+    attachmentHref: "https://www.youtube.com/watch?v=2IwQoA8bmXI",
+    attachmentType: "video",
+    isVideo: true,
+    panelists: [
+      { name: "Earl Carr", role: "CEO, CJPA Global Advisors" },
+      { name: "Serena Xue Dong", role: "Fellow, Center for China and Globalization" },
+      { name: "Bruno Colmant", role: "Member, Royal Academy of Belgium" },
+    ],
+  },
   {
     publication: "Press Release",
     date: "May 28, 2025",
@@ -70,6 +84,10 @@ interface PressItem {
   attachmentType: string
   headline: string
   attachmentLabel: string
+  description?: string
+  featuredPanelistsLabel?: string
+  isVideo?: boolean
+  panelists?: { name: string; role: string }[]
 }
 
 function ArticleCard({
@@ -157,11 +175,16 @@ export function Insights() {
     title: t.insights.articles[i].title,
     excerpt: t.insights.articles[i].excerpt,
   }))
-  const press: PressItem[] = PRESS_META.map((meta, i) => ({
-    ...meta,
-    headline: t.insights.press[i].headline,
-    attachmentLabel: t.insights.press[i].attachmentLabel,
-  }))
+  const press: PressItem[] = PRESS_META.map((meta, i) => {
+    const translated = t.insights.press[i]
+    return {
+      ...meta,
+      headline: translated.headline,
+      attachmentLabel: translated.attachmentLabel,
+      description: translated.description,
+      featuredPanelistsLabel: translated.featuredPanelistsLabel,
+    }
+  })
 
   return (
     <section id="insights" className="relative bg-[#070B14] py-28 lg:py-36">
@@ -238,6 +261,87 @@ export function Insights() {
             <div className="space-y-0">
               {press.map((item, i) => {
                 const AttachmentIcon = item.attachmentType === "image" ? ImageIcon : FileText
+
+                if (item.isVideo) {
+                  return (
+                    <motion.article
+                      key={item.headline}
+                      initial={{ opacity: 0, x: 12 }}
+                      animate={pressInView ? { opacity: 1, x: 0 } : {}}
+                      transition={{ duration: 0.6, delay: 0.05 + i * 0.07, ease: EASE }}
+                      className="grid gap-5 border-b border-[#C8A96A]/08 py-6 sm:grid-cols-[minmax(150px,0.8fr)_minmax(0,1.2fr)]"
+                    >
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${item.attachmentLabel}: ${item.headline}`}
+                        className="group relative block aspect-video overflow-hidden border border-[#C8A96A]/10 bg-[#101827]"
+                      >
+                        <img
+                          src={item.image}
+                          alt=""
+                          className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                          loading="lazy"
+                        />
+                        <span className="absolute inset-0 flex items-center justify-center bg-[#070B14]/25 transition-colors group-hover:bg-[#070B14]/10">
+                          <span className="flex h-11 w-11 items-center justify-center rounded-full border border-[#F5F1E8]/60 bg-[#070B14]/65 text-[#F5F1E8]">
+                            <Play size={16} fill="currentColor" strokeWidth={1.5} />
+                          </span>
+                        </span>
+                      </a>
+
+                      <div className="min-w-0">
+                        <div className="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                          <span
+                            className="text-[#C8A96A]/70 font-sans uppercase tracking-[0.15em]"
+                            style={{ fontSize: "10px" }}
+                          >
+                            {item.publication}
+                          </span>
+                          <span className="h-3 w-px bg-[#A8B0C0]/20" />
+                          <span className="text-[#A8B0C0]/55 font-sans" style={{ fontSize: "11px" }}>
+                            {item.date}
+                          </span>
+                        </div>
+                        <h3
+                          className="mb-2 font-display font-normal leading-snug text-[#F5F1E8]"
+                          style={{ fontSize: "clamp(17px, 1.6vw, 20px)" }}
+                        >
+                          {item.headline}
+                        </h3>
+                        <p className="mb-3 font-sans font-light leading-[1.75] text-[#A8B0C0]" style={{ fontSize: "13px" }}>
+                          {item.description}
+                        </p>
+                        {item.panelists && (
+                          <div className="mb-4">
+                            <p className="mb-1.5 font-sans uppercase tracking-[0.12em] text-[#A8B0C0]/60" style={{ fontSize: "9px" }}>
+                              {item.featuredPanelistsLabel}
+                            </p>
+                            <ul className="space-y-1">
+                              {item.panelists.map((panelist) => (
+                                <li key={panelist.name} className="font-sans leading-snug text-[#A8B0C0]/80" style={{ fontSize: "11px" }}>
+                                  <span className="text-[#F5F1E8]/90">{panelist.name}</span>
+                                  {`, ${panelist.role}`}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                        <a
+                          href={item.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 font-sans text-[#C8A96A] transition-colors hover:text-[#F5F1E8]"
+                          style={{ fontSize: "12px" }}
+                        >
+                          {item.attachmentLabel}
+                          <ArrowUpRight size={14} strokeWidth={1.5} />
+                        </a>
+                      </div>
+                    </motion.article>
+                  )
+                }
 
                 return (
                 <motion.a

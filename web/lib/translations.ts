@@ -100,7 +100,12 @@ export interface Translations {
     recentPerspectives: string
     inThePress: string
     articles: { title: string; excerpt: string }[]
-    press: { headline: string; attachmentLabel: string }[]
+    press: {
+      headline: string
+      attachmentLabel: string
+      description?: string
+      featuredPanelistsLabel?: string
+    }[]
   }
   publications: {
     eyebrow: string
@@ -370,6 +375,13 @@ export const en: Translations = {
     inThePress: "In the Press",
     articles: [],
     press: [
+      {
+        headline: "Earl Carr Discusses EU-China Trade Tensions and Rare Earth Exports",
+        attachmentLabel: "Watch the Discussion",
+        description:
+          "Following high-level trade talks in Beijing on October 8–9, 2026, CJPA Global Advisors CEO Earl Carr joined an international panel to examine the EU's widening trade deficit with China, proposed restrictions on Chinese hybrid electric vehicle imports, and Beijing's commitment to facilitate rare earth exports. Panelists also considered the tensions between free-market principles and China's state-led economic model, and whether renewed diplomacy can prevent further trade escalation.",
+        featuredPanelistsLabel: "Featured panelists",
+      },
       {
         headline: "CJPA Global Advisors attends exclusive Paley Center luncheon featuring General David H. Petraeus",
         attachmentLabel: "Open release",
@@ -694,6 +706,13 @@ export const es: Translations = {
     articles: [],
     press: [
       {
+        headline: "Earl Carr analiza las tensiones comerciales entre la UE y China y las exportaciones de tierras raras",
+        attachmentLabel: "Ver el debate",
+        description:
+          "Tras las conversaciones comerciales de alto nivel celebradas en Pekín los días 8 y 9 de octubre de 2026, Earl Carr, CEO de CJPA Global Advisors, participó en un panel internacional para examinar el creciente déficit comercial de la UE con China, las restricciones propuestas a las importaciones chinas de vehículos híbridos eléctricos y el compromiso de Pekín de facilitar las exportaciones de tierras raras. El panel también analizó las tensiones entre los principios del libre mercado y el modelo económico dirigido por el Estado chino, y si la diplomacia puede evitar una mayor escalada comercial.",
+        featuredPanelistsLabel: "Panelistas destacados",
+      },
+      {
         headline: "CJPA Global Advisors asiste a un almuerzo exclusivo del Paley Center con el General David H. Petraeus",
         attachmentLabel: "Abrir comunicado",
       },
@@ -1017,6 +1036,13 @@ export const zhCN: Translations = {
     articles: [],
     press: [
       {
+        headline: "Earl Carr 谈欧中贸易紧张局势与稀土出口",
+        attachmentLabel: "观看讨论",
+        description:
+          "在 2026 年 10 月 8 日至 9 日于北京举行的高层贸易会谈后，CJPA Global Advisors 首席执行官 Earl Carr 参与国际小组讨论，探讨欧盟对华贸易逆差扩大、拟议限制进口中国混合动力电动汽车，以及北京承诺促进稀土出口等议题。与会者还讨论了自由市场原则与中国国家主导经济模式之间的张力，以及近期外交接触能否避免贸易局势进一步升级。",
+        featuredPanelistsLabel: "特邀嘉宾",
+      },
+      {
         headline: "CJPA Global Advisors 出席 Paley Center 特邀午宴,大卫·彼得雷乌斯(David H. Petraeus)将军出席",
         attachmentLabel: "查看新闻稿",
       },
@@ -1339,6 +1365,13 @@ export const zhTW: Translations = {
     inThePress: "媒體報導",
     articles: [],
     press: [
+      {
+        headline: "Earl Carr 談歐中貿易緊張局勢與稀土出口",
+        attachmentLabel: "觀看討論",
+        description:
+          "在 2026 年 10 月 8 日至 9 日於北京舉行的高層貿易會談後，CJPA Global Advisors 執行長 Earl Carr 參與國際小組討論，探討歐盟對中國貿易逆差擴大、擬議限制進口中國油電混合車，以及北京承諾促進稀土出口等議題。與會者也討論了自由市場原則與中國國家主導經濟模式之間的張力，以及近期外交接觸能否避免貿易局勢進一步升級。",
+        featuredPanelistsLabel: "特邀嘉賓",
+      },
       {
         headline: "CJPA Global Advisors 出席 Paley Center 特邀午宴,大衛·彼得雷烏斯(David H. Petraeus)將軍出席",
         attachmentLabel: "查看新聞稿",
